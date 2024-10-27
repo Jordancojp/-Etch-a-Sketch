@@ -33,7 +33,7 @@
     margin-left: 64px;
 }
 
-#Tools #ColorPallet {
+#Tools #ColorPalette {
     font-size: large;
     font-weight: bold;
     text-align: center;
@@ -42,7 +42,7 @@
     border-radius: 8px;
 }
 
-#Pallet {
+#Palette {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -61,7 +61,7 @@
     box-shadow: 0 0 4px inset rgb(0, 217, 255);
 }
 
-#Pallet .GridNode {
+#Palette .GridNode {
     min-width: 24px; min-height: 24px;
     max-width: 24px; max-height: 24px;
 }
