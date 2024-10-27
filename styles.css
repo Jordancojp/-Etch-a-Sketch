@@ -1,7 +1,14 @@
+#Header {
+    margin: 32px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
 #Editor {
     display: flex;
     justify-content: center;
-    min-height: 512px; max-height: 512px;
+    min-height: 600px; max-height: 600px;
 }
 
 #Grid {
@@ -9,33 +16,38 @@
     flex-wrap: wrap;
     border: solid 4px black;
     border-radius: 8px;
-    min-width: 512px; max-width: 512px;
-    padding: 32px;
+    min-width: 600px; max-width: 600px;
+    min-height: 600px; max-height: 600px;
+    padding: 8px;
 }
 
-#ColorPallet {
-    align-self: center;
+#Tools {
+    align-self: right;
     display: flex;
     border: solid 4px rgb(0, 0, 0);
     border-radius: 8px;
     flex-direction: column;
-    min-width: 200px; max-width: 200px;
+    justify-content:space-between;
+    min-height: 600px; max-height: 600px;
+    padding: 8px;
+    margin-left: 64px;
 }
 
-#ColorPallet #Title {
+#Tools #ColorPallet {
     font-size: large;
     font-weight: bold;
     text-align: center;
-    margin: 16px;
+    padding: 8px;
+    border: solid 1px rgb(97, 97, 97);
+    border-radius: 8px;
 }
 
 #Pallet {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px rgb(97, 97, 97);
-    border-radius: 8px;
+    justify-content: center;
     min-width: 160px; max-width: 160px;
-    padding: 16px;
+    padding: 8px;
     align-self: center;
 }
 
@@ -57,4 +69,10 @@
 #Pallet .GridNode {
     min-width: 24px; min-height: 24px;
     max-width: 24px; max-height: 24px;
+}
+
+#NewDoc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
