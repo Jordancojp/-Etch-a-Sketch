@@ -1,0 +1,21 @@
+#Grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 4px black;
+    border-radius: 8px;
+    min-width: 544px; max-width: 544px;
+    min-height: 544px; max-height: 544px;
+    padding: 32px;
+}
+
+.GridNode {
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0 0 2px inset rgb(36, 36, 36);
+    min-width: 6.25%; min-height: 6.25%;
+    max-width: 6.25%; max-height: 6.25%;
+}
+
+.GridNode:hover {
+    box-shadow: 0 0 4px inset rgb(0, 217, 255);
+}
